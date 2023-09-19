@@ -1,0 +1,18 @@
+
+#listOfPages {
+    margin-top: 18px;
+}
+
+#listOfPages a {
+    font-weight: 500;
+    color: white;
+}
+
+.margin-bottom {
+    margin-bottom: 1.6rem;
+}
+
+.infobutton {
+    padding: .375rem .4rem !important;
+    vertical-align: baseline !important;
+}

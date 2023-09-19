@@ -1,0 +1,138 @@
+
+#search-results-container {
+    display: none;
+    margin: 20px;
+}
+
+#search-loading{
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#search-results{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.entryContainer {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.entryContainer a:hover{
+    text-decoration: none;
+}
+
+.entryContainer:hover{
+    background-color: #360c2d7c;
+    transition: 0.5s;
+}
+
+.entryContainer p{
+    margin-bottom: 0px;
+}
+
+a .entryTitle:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 575px) {
+    .entryTitle {
+        font-size: 1.2rem;
+    }
+}
+
+.entrySep {
+    background-color: #360c2d;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+#reset-prompt:disabled {
+    color: white;
+}
+
+.entry-img {
+    height: 90px;
+    width: 70px;
+    object-fit: cover;
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -300px 0;
+    }
+    100% {
+        background-position: 300px 0;
+    }
+}
+
+.shimmer-bg {
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(100deg,
+        #DDD 20%,
+        #dddddd90 50%,
+        #DDD 80%);
+    background-size: 300px 100%;
+    border-radius: 5px;
+}
+
+.entry-img-shimmer {
+    height: 90px;
+    width: 70px;
+}
+
+.entry-title-shimmer {
+    height: 30.4px;
+    width: 75px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.entry-text-shimmer {
+    height: 20px;
+    width: 100px;
+    margin-top: 4px;
+}
+
+@media (min-width: 576px) {
+
+    .entry-title-shimmer {
+        width: 150px;
+    }
+    
+    .entry-text-shimmer {
+        width: 200px;
+    }
+
+}
+
+.entry-container-shimmer {
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .search-box {
+    width: 60%;
+  }
+}

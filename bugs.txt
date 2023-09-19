@@ -1,0 +1,35 @@
+• ERRORES (!)
+    [x] No se puede crear nuevo usuario
+    [x] No se puede reportar una categoría
+
+• PROBLEMAS
+    [x] MyAccount → poder visualizar contraseña
+    [x] Login → poder visualizar contraseña
+    [x] Signup → poder visualizar contraseña
+    [x] Signup → decir requisitos contraseña a usuario
+    [x] Signup → requisitos contraseña con front-end!! no back
+    [x] Signup → Mensaje de éxito que incluya el nombre de usuario por lo menos
+                 (o que inicie sesión directamente...)
+
+    [x] Un usario no sabe si es o no administrador
+    [x] PageX → El título está por duplicado
+    [x] PageX → Descarga que tenga como nombre título página
+    [x] Search → Si no resultados, aviso
+    [x] Admin → Si no denuncias, info
+    [x] New → Categoría por defecto "undefined", no "a"
+    [x] New → Habría que elegir entre "file" o "edit", pero no ambas a la vez
+
+• ESTÉTICA
+    [ ] Search → enmarcar campo de búsqueda?
+    [ ] Search → borde imágenes?
+    [ ] PageX → mejorar formato
+        [ ] Botones mismo ancho
+        [ ] Texto muy ancho → reducir, como Wikipedia
+
+• RESPONSIVENESS
+    + iPhone SE
+        [ ] Home/Search → barra muy corta
+        [ ] Home/Welcome → botones no bien colocados
+        [ ] Search → mal colocado
+        [ ] PageX → título muy grande; metainformación ocupa mucho
+        [ ] MyAccount → se ve muy mal

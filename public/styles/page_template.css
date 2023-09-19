@@ -1,0 +1,53 @@
+
+header {
+    /* Override default styles.css margin */
+    margin-bottom: 0 !important;
+}
+
+.page-header {
+    border-bottom: solid var(--darkColor);
+    background-color: var(--softDarkColor);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.page-header-sep {
+    background-color: var(--textColor);
+}
+
+#description {
+    border-color: var(--dark);
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+    .page-title {
+        font-size: 3.5rem;
+    }
+}
+
+.metadataToggle{
+    -moz-transition: all 0.35s linear;
+    -webkit-transition: all 0.35s linear;
+    transition: all 0.35s linear;
+}
+
+.metadataToggle.down{
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#pageBody {
+    word-wrap: break-word;
+}
+
+#pageBody img {
+    max-width: 100%;
+}

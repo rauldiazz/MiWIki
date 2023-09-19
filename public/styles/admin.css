@@ -1,0 +1,31 @@
+#page-reports-cont, #category-reports-cont {
+    display: none;
+}
+
+#page-reports-empty, #category-reports-empty {
+    display: none;
+    font-style: italic;
+}
+
+.report-table-wrapper {
+    max-height: 220px;
+    overflow: auto;
+}
+
+.report-table {
+    background-color: #360c2d54;
+}
+
+.report-table th,td {
+    border-color: #360c2d !important;
+}
+
+#page-report-table td:last-child {
+    min-width: 120px;
+    max-width: 200px;
+}
+
+#category-report-table td:last-child {
+    min-width: 140px;
+    max-width: 230px;
+}
